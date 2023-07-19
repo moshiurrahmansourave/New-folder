@@ -1,0 +1,273 @@
+/* all the shared styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.primary-color {
+    color: #FF42A5;
+}
+
+
+/* bar section style */
+
+
+.bar-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 340px;
+
+}
+
+.bar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffffcb;
+    /* width: 1920px;
+    height: 130px; */
+
+}
+
+.bar-about {
+    display: flex;
+    gap: 30px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 240px;
+}
+
+.Follow-btn {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #0b02231a;
+
+
+}
+
+/* banner section 1 style */
+
+
+.banner-writing {
+
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    padding-left: 240px;
+    padding-top: 140px;
+    padding-bottom: 148px;
+
+    width: 901px;
+    height: 700px;
+}
+
+.banner-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: -80px;
+}
+
+.banner-title-bold {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #e661b1 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.banner-para {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.Sign-btn,
+.Go-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FF42A5;
+    border: none;
+}
+
+.banner-section-1 {
+    display: flex;
+
+    /* width: 1885px;
+    height: 700px; */
+
+    background-color: #f1eef7;
+}
+
+.banner-img img {
+    height: 680px;
+    width: 600px;
+    margin-top: 19px;
+    margin-right: 240px;
+    
+}
+
+/* banner section 2 style */
+.banner-section-2 {
+    display: flex;
+    /* width: 1885px;
+    height: 600px; */
+    background:  #ff42a508;
+    
+}
+
+.writing {
+    direction: rtl;
+    margin-left: 52px;
+}
+
+.we-are {
+    margin-bottom: -30px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.know-btn {
+    border-radius: 48px;
+    background: #FF42A5;
+    padding: 21px 40px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+
+}
+
+.Our-Purpose {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.unleash {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.banner-para-2 {
+    width: 520px;
+    margin-top: 55px;
+}
+.banner-img-2 {
+    margin-left: 220px;
+}
+
+/* main section style */
+
+.main-section{
+    text-align: center;
+}
+.main-section-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.image-section{
+    display: flex;
+   text-align: center;
+   justify-content:center;
+   gap: 24px;
+   
+}
+
+/* main model 1 style */
+
+.main-section-model-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 260px;
+    margin-top: 120px;
+}
+.direction{
+    direction: rtl;
+}
+.model-1-img-smol img {
+
+}
+
+@media screen and (max-width:576px) {
+    
+    .bar-section{
+        flex-direction: column;
+    
+    }
+    .bar-about{
+        flex-direction: column;
+    }
+    .bar-title {
+    
+        margin-left: 0px;
+    
+    }
+    .bar-about {
+      align-items: center;
+        margin-right: 0px;
+    }
+    
+    
+    
+    
+    .bar-section{
+        flex-direction: column;
+    }
+    .bar-about{
+        flex-direction: column;
+    }
+    /* .banner-section-1 {
+        flex-direction: column;
+    } */
+    .banner-section-2 {
+        flex-direction: column;
+    }
+    .writing{
+        direction: ltr;
+        text-align: center;
+        align-items: center;
+    }
+    .image-section{
+        flex-direction: column;
+    }
+    .banner-img-2 {
+        margin-left: 0px;
+    }
+   
+  
+
+.banner-section-1 {
+    flex-direction: column;
+}
+.banner-writing{
+    margin: 0;
+    padding: 0px;
+}
+
+}
