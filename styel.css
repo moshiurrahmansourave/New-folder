@@ -134,6 +134,7 @@ body {
     border-radius: 48px;
     background: #FF42A5;
     border: none;
+    cursor: pointer;
 }
 
 .banner-section-1 {
@@ -187,6 +188,7 @@ body {
     font-size: 20px;
     border: none;
     font-weight: 600;
+    cursor: pointer;
 
 }
 
