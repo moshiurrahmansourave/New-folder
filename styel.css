@@ -19,6 +19,18 @@ body {
 
 }
 
+#go-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    ;
+    border: none;
+}
+
 .bar-section {
     display: flex;
     justify-content: space-between;
@@ -43,9 +55,33 @@ body {
     height: 56px;
     border-radius: 8px;
     background-color: #0b02231a;
+    border: none;
+}
+
+.Follow-btn:hover {
+    background-color: #3c00ff1a;
 
 
 }
+
+.line {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.line img {
+    margin-top: 12px;
+    height: 30px;
+}
+
+.Follow-1 {
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
 
 /* banner section 1 style */
 
@@ -187,6 +223,12 @@ body {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: -10px;
+    margin-top: 70px;
+
+}
+
+.banner-para {
+    margin-bottom: 50px;
 }
 
 .funny {
@@ -205,6 +247,30 @@ body {
 
 }
 
+/* ____________________________________________________________________ */
+
+.img>img:hover {
+    filter: brightness(0.5);
+
+}
+
+.overlay {
+
+    width: 0px;
+    margin-left: 150px;
+    margin-top: -330px;
+    color: #4EC5F7;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.imge:hover .overlay {
+    opacity: 0.8;
+}
+
+/* ________________________________________________________________________ */
+
 /* main model 1 style */
 
 .main-section-model-1 {
@@ -212,7 +278,7 @@ body {
     /* align-items: center; */
     justify-content: center;
     gap: 260px;
-    margin-top: 120px;
+    margin-top: 300px;
 }
 
 .direction {
