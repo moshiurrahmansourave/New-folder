@@ -566,4 +566,102 @@ body {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .imge {
+        margin-bottom: 200px;
+    }
+
+    .model-1-img {
+        margin-left: 150px;
+        margin-top: -200px;
+    }
+
+    .model-1-img-big {
+        width: 400px;
+    }
+
+    .model-1-img-smol img {
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    .model-1-writing{
+        margin-top: -250px;
+        text-align: center;
+        margin-left: -60px;
+    }
+
+    .model-2-img-big {
+        width: 400px;
+    }
+
+    .model-2-img-smol img {
+        width: 200px;
+        margin-top: 110px;
+        margin-left: -240px;
+    }
+
+    .model-2-writing {
+        margin-top: -500px;
+        text-align: center;
+    }
+    .model-2-img{
+        margin-top: -200px;
+    }
+    
+
+    .button-section,
+    .action {
+        display: block;
+        margin-left: 100px;
+        
+    }
+    
+    .about {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .icon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about-us {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .last-footer-section {
+        padding-left: 65px;
+    }
+
+    .copy-write {
+        margin-top: 50px;
+        margin-left: -60px;
+    }
+
+    .banner-img img {
+        height: auto;
+        width: 500px;
+        margin-top: 19px;
+        margin-right: -240px;
+    }
+
+    .banner-writing {
+        text-align: center;
+    }
+
+    .direction {
+        direction: ltr;
+        padding-left: 120px;
+    }
+    .last-main-section{
+        display: none;
+    }
+    .writing{
+        margin-left:10px;
+    }
+
 }
